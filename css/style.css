@@ -11,11 +11,18 @@ body {
 }
 
 /* Titles */
-
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   font-family: "Oswald";
   font-weight: 300;
   color: #333;
+}
+
+h6 {
+  font-family: "Oswald";
+  font-weight: 300;
+  color: #ff7878;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 /* Paragraph & Typographic */
@@ -109,7 +116,7 @@ hr {
    ========================================================================== */
 
 #headerwrap {
-  background: url(../img/header-bg.jpg) no-repeat center top;
+  background: url(../img/header.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
